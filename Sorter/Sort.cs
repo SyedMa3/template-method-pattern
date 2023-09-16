@@ -1,8 +1,21 @@
-﻿using System;
+﻿/******************************************************************************
+* Filename    = Sort.cs
+*
+* Author      = Syed Abdul Mateen
+*
+* Product     = SoftwareDesignPatterns
+* 
+* Project     = MainApp
+*
+* Description = Measures the time of various sorting alogrithms.
+*****************************************************************************/
 using System.Diagnostics;
 
 namespace Sorter
 {
+    /// <summary>
+    /// Measures the sorting time of an algorithm
+    /// </summary>
     public abstract class MeasureSort
     {
         public int sortingTime, n;
@@ -10,6 +23,10 @@ namespace Sorter
 
         public string? sortingMethod = "";
 
+        /// <summary>
+        /// Creates an instance of MeasureSort.
+        /// </summary>
+        /// <param name="n">The size of array to be sorted</param>
         public MeasureSort(int n)
         {
             sortingTime = 0;
@@ -17,6 +34,9 @@ namespace Sorter
             arr = null;
         }
 
+        /// <summary>
+        /// Template Method which calls all the member methods.
+        /// </summary>
         public void TemplateMethod()
         {
             InitArray();
@@ -24,6 +44,9 @@ namespace Sorter
             DisplayResults();
         }
 
+        /// <summary>
+        /// Initiliazes a random array.
+        /// </summary>
         protected void InitArray()
         {
             // Create an array of random numbers
@@ -35,8 +58,14 @@ namespace Sorter
             }
         }
 
+        /// <summary>
+        /// Abstract method left to be implemented by sub-classes.
+        /// </summary>
         protected abstract void Sort();
 
+        /// <summary>
+        /// Prints the execution time of the sorting algorithm.
+        /// </summary>
         protected void DisplayResults()
         {
             Console.WriteLine("Sorting method: {0}", sortingMethod);
@@ -44,6 +73,9 @@ namespace Sorter
         }
     }
 
+    /// <summary>
+    /// Subclass which implemetns Bubble Sort
+    /// </summary>
     public class BubbleSort : MeasureSort
     {
         public BubbleSort(int n) : base(n)
@@ -75,6 +107,9 @@ namespace Sorter
         }
     }
 
+    /// <summary>
+    /// Subclass which implements MergeSort
+    /// </summary>
     public class MergeSort : MeasureSort
     {
         public MergeSort(int n) : base(n)

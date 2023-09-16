@@ -1,4 +1,15 @@
-﻿using Sorter;
+﻿/******************************************************************************
+* Filename    = UnitTest1.cs
+*
+* Author      = Syed Abdul Mateen
+*
+* Product     = SoftwareDesignPatterns
+* 
+* Project     = UnitTests
+*
+* Description = Unit tests for the Template Method demo.
+*****************************************************************************/
+using Sorter;
 
 namespace UnitTests
 {

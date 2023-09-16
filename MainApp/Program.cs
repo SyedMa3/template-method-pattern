@@ -1,4 +1,15 @@
-﻿using Sorter;
+﻿/******************************************************************************
+* Filename    = Program.cs
+*
+* Author      = Syed Abdul Mateen
+*
+* Product     = SoftwareDesignPatterns
+* 
+* Project     = TemplateMethodDemo
+*
+* Description = Main App which starts the console..
+*****************************************************************************/
+using Sorter;
 
 namespace MainApp
 {
