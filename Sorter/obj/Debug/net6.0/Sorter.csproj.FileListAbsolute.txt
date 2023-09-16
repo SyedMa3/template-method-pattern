@@ -1,0 +1,11 @@
+E:\SE\template-method-demo\Sorter\obj\Debug\net6.0\Sorter.GeneratedMSBuildEditorConfig.editorconfig
+E:\SE\template-method-demo\Sorter\obj\Debug\net6.0\Sorter.AssemblyInfoInputs.cache
+E:\SE\template-method-demo\Sorter\obj\Debug\net6.0\Sorter.AssemblyInfo.cs
+E:\SE\template-method-demo\Sorter\obj\Debug\net6.0\Sorter.csproj.CoreCompileInputs.cache
+E:\SE\template-method-demo\Sorter\bin\Debug\net6.0\Sorter.deps.json
+E:\SE\template-method-demo\Sorter\bin\Debug\net6.0\Sorter.dll
+E:\SE\template-method-demo\Sorter\bin\Debug\net6.0\Sorter.pdb
+E:\SE\template-method-demo\Sorter\obj\Debug\net6.0\Sorter.dll
+E:\SE\template-method-demo\Sorter\obj\Debug\net6.0\refint\Sorter.dll
+E:\SE\template-method-demo\Sorter\obj\Debug\net6.0\Sorter.pdb
+E:\SE\template-method-demo\Sorter\obj\Debug\net6.0\ref\Sorter.dll
